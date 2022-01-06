@@ -1,3 +1,43 @@
+/* -------------All fonts for this project----- */
+
+
 /* font-family: 'Baloo Bhai 2', cursive;
 font-family: 'Spline Sans', sans-serif;
 font-family: 'Montserrat', sans-serif; */
+
+
+/* -----------------common css----------- */
+
+* {
+    margin: 0 auto;
+}
+
+
+/* -----------------common css ends----------- */
+
+
+/* -----------------------------------------Header section starts here */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+}
+
+.header-left {
+    margin-right: 30px;
+}
+
+.header-left-border {
+    border-left: 2px solid red;
+    border-image-slice: 1;
+}
+
+.header-right {
+    margin-left: 80px;
+}
+
+.header-right-img {
+    width: 50%;
+}
