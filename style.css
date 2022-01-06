@@ -35,7 +35,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .header-left-border {
-    border-left: 2px solid red;
+    border-left: 3px solid red;
     border-image-slice: 1;
     padding-left: 5px;
     /* background-color: white; */
@@ -147,4 +147,129 @@ font-family: 'Montserrat', sans-serif; */
 
 .card-three {
     background-color: rgb(234, 240, 234);
+}
+
+
+/* -----------------------------------------Documentations section--------- */
+
+.documentation {
+    display: flex;
+    margin-top: 50px;
+    /* background-color: rgb(119, 81, 25); */
+    width: 90%;
+    background-image: url('images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+
+.docu-left {
+    width: 30%;
+    margin-right: 168px;
+}
+
+.docu-right {
+    /* background-color: violet; */
+    width: 25%;
+    margin-left: -108px;
+    padding-top: 41px;
+    margin-right: 323px;
+}
+
+.docu-right-para {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#docu-img-size {
+    height: 339px;
+    width: 332px;
+}
+
+.link-btn {
+    padding-top: 20px;
+}
+
+.link-btn a {
+    text-decoration: none;
+    background-color: #cc6c6c;
+    padding: 5px;
+    /* width: 66px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* ----------------------------------------global section starts here */
+
+.global {
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 90px;
+}
+
+.glo-left-div {
+    padding-top: 60px;
+    width: 50%;
+    /* background-color: aqua; */
+    padding-left: 141px;
+}
+
+.glo-left-div-h {
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 900;
+    font-weight: bolder;
+}
+
+.glo-left-para {
+    /* background-color: green; */
+    margin-right: 103px;
+    padding-top: 18px;
+}
+
+.glo-right-div {
+    /* background-color: rgb(32, 17, 114); */
+    width: 42%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 69%;
+}
+
+.glo-right-img {
+    height: 339px;
+    width: 332px;
+}
+
+
+/* -----------------------------global ends here--------- */
+
+
+/* -------------------------------Footer-starts-here------------ */
+
+footer {
+    margin-top: 5px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer-line {
+    font-size: 40px;
+    color: white;
+    font-family: 'The Nautigal', cursive;
+    font-weight: bolder;
+}
+
+#footer-line-two {
+    font-size: smaller;
+    color: white;
+}
+
+#footer-span {
+    font-size: 30px;
+    color: green;
+    font-weight: bolder;
 }
