@@ -20,24 +20,70 @@ font-family: 'Montserrat', sans-serif; */
 
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 270px;
+    /* margin-left: 270px; */
+    /* background-color: blanchedalmond; */
+    margin-top: 40px;
 }
 
 .header-left {
-    margin-right: 30px;
+    margin-top: 50px;
+    margin-left: 270px;
+    width: 50%;
 }
 
 .header-left-border {
     border-left: 2px solid red;
     border-image-slice: 1;
+    padding-left: 5px;
+    /* background-color: white; */
 }
 
-.header-right {
-    margin-left: 80px;
+#header-left-first-line {
+    font-size: 38px;
+    padding-bottom: 7px;
+    font-family: 'Spline Sans';
 }
+
+#header-left-second-line {
+    font-size: 33px;
+    font-family: 'Spline Sans';
+    color: rgb(126, 223, 126);
+}
+
+.header-left-para {
+    margin-top: 20px;
+    font-size: 15px;
+    /* background-color: yellow; */
+    padding-right: 158px;
+}
+
+.header-btn {
+    background-color: red;
+    border: 0px;
+    width: 120px;
+    height: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.header-button {
+    padding-top: 15px;
+}
+
+.header-btn:hover {
+    cursor: help;
+    color: black;
+}
+
+
+/* ------------------------------header-right----- */
 
 .header-right-img {
-    width: 50%;
+    height: 329px;
+    width: 282px;
+    padding-right: 225px;
 }
+
+
+/* -- ----------------------------------section two starts here --------------------- */
